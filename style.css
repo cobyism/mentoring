@@ -1,0 +1,77 @@
+/* Will be compiled down to a single stylesheet with your sass files */
+
+* { box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; }
+
+html, body {
+  font-size: 21px;
+  font-family: Lato, "Open Sans", Helvetica, Arial, sans-serif;
+  color: #777;
+  font-weight: 300;
+}
+
+h1, h2, h3 {
+  font-weight: normal;
+}
+
+p, li {
+  line-height: 1.8em;
+}
+
+a {
+  color: #c00;
+  text-decoration: none;
+  text-shadow: 1px 1px #fc0;
+}
+
+.page {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 30px 50px;
+  position: relative;
+}
+
+.title {
+  font-weight: 300;
+  color: #666;
+  font-size: 56px;
+}
+
+.title, .intro, .sign-out, footer {
+  text-align: center;
+}
+
+.intro, .sign-out {
+  font-size: 32px;
+  line-height: 1.5em;
+  color: #333;
+  font-weight: 300;
+}
+
+.handle {
+  color: #aaa;
+}
+
+.slash {
+  color: #c00;
+  font-size: 96px;
+  position: relative;
+  top: .2em;
+  left: -.05em;
+  line-height: .1em;
+  font-weight: 800;
+  text-shadow: 3px 3px 0 #fc0;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.3), rgba(0,0,0,0));
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.3), rgba(0,0,0,0));
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.3), rgba(0,0,0,0));
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.3), rgba(0,0,0,0));
+}
+
+footer {
+  font-size: 18px;
+  color: #aaa;
+}
