@@ -1,6 +1,6 @@
 # Mentoring
 
-Inspired by [a distributed mentoring movement](https://github.com/dianakimball/mentoring), this repo gives you a [/mentoring](http://cobyism.com/mentoring) page which you can customise to suit your own needs.
+Inspired by [a distributed mentoring movement](https://github.com/dianakimball/mentoring), this repo gives you a [/mentoring](http://mentoring.is) page which you can customise to suit your own needs.
 
 ### How do I do this?
 
